@@ -1,0 +1,54 @@
+/* MAIN CONTAINER */
+.container {
+    min-height: 100vh;
+    background: #f7f9fc;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+}
+
+/* LOGO */
+header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* TITLE */
+header h1 {
+    font-size: 22px;
+    color: #222;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* LIST SECTION */
+.list {
+    padding: 30px 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    .list {
+        padding: 20px;
+    }
+}

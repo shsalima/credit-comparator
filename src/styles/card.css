@@ -12,3 +12,76 @@
     height: auto;
     overflow: auto;
 }
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+
+    /* 👇 هادي هي اللي كتخلي جوج فالسطر */
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+/* hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* provider title */
+.card h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #222;
+}
+
+/* info section */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: #444;
+}
+
+/* DETAIL (closed) */
+.detail-card {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+/* DETAIL (open) */
+.detail-card-expanded {
+    height: auto;
+    opacity: 1;
+}
+
+/* RESPONSIVE (mobile = 1 card per row) */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}

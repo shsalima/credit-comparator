@@ -1,5 +1,5 @@
 import "../styles/card.css";
-// import "../styles/detail.css";
+
 
 const toggleCrad = (offerId) => {
   const offerDetails = document.getElementById(String(offerId));
@@ -7,7 +7,7 @@ const toggleCrad = (offerId) => {
     console.error("offer not found");
     return;
   }
-  console.log(offerDetails);
+//   console.log(offerDetails);
 
   offerDetails.classList.toggle("detail-card-expanded");
 };
