@@ -7,15 +7,17 @@ export default function Home() {
   return (
    <div className="container">
     <header>
-       <img src=""/>
-       <h1>jsdkzledze</h1>
+       <img src="./Mocktalk-logo-removebg-preview.png" alt="logo non trouvé"/>
+       <span>
+
+       <h1>FinPuse</h1>
+       <h4>Financial Analyzer</h4>
+       </span>
 
 
     </header>
-      <div className="list">
         <OfferList offers={offers} />
        
-     </div>
      </div>
   );
 }

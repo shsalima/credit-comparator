@@ -3,8 +3,8 @@ import "../styles/card.css";
 
 export default function OfferList({ offers }) {
   return (
-    <div>
-      <h1>offer list</h1>
+    <div className="carrt-list">
+      <h2>Available Credit Offers</h2>
 
       <div className="cards-container">
         {offers.map((offer) => (
