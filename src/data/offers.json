@@ -7,7 +7,8 @@
     "taux": 4.5,
     "duree": 5,
     "mensualite": 930,
-    "cout_total": 55800
+    "cout_total": 55800,
+    "isRecommended":false
   },
   {
     "id": 2,
@@ -17,9 +18,10 @@
     "taux": 5.2,
     "duree": 7,
     "mensualite": 1150,
-    "cout_total": 96600
+    "cout_total": 96600,
+    "isRecommended":false
   },
-
+  
   {
     "id": 3,
     "image":"cih.png",
@@ -28,17 +30,19 @@
     "taux": 3.9,
     "duree": 6,
     "mensualite": 940,
-    "cout_total": 67680
+    "cout_total": 67680,
+    "isRecommended":true
   },
   {
     "id": 4,
-     "image":"Société_Générale_Maroc.png",
+    "image":"Société_Générale_Maroc.png",
     "provider": "Société Générale Maroc",
     "montant": 90000,
     "taux": 5.1,
     "duree": 8,
     "mensualite": 1180,
-    "cout_total": 113280
+    "cout_total": 113280,
+    "isRecommended":false
   }
 
 
