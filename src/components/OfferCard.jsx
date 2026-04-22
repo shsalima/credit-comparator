@@ -11,10 +11,18 @@ const toggleCrad = (offerId) => {
 
   offerDetails.classList.toggle("detail-card-expanded");
 };
+
+
+
 export default function OfferCard({ offer }) {
   return (
     <div className="card" onClick={() => toggleCrad(offer.id)}>
+      <span className="logo-cart">
+
+      <img src={offer.image} alt="image de cart"/>
       <h2>{offer.provider}</h2>
+      </span>
+
 
       <div className="info">
         <h3>{offer.montant}£</h3>

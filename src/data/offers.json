@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "image":"attijariwafa.webp",
     "provider": "Attijariwafa Bank",
     "montant": 50000,
     "taux": 4.5,
@@ -10,6 +11,7 @@
   },
   {
     "id": 2,
+    "image":"mc.png",
     "provider": "BMCE Bank",
     "montant": 80000,
     "taux": 5.2,
@@ -17,17 +19,10 @@
     "mensualite": 1150,
     "cout_total": 96600
   },
+
   {
     "id": 3,
-    "provider": "Banque Populaire",
-    "montant": 120000,
-    "taux": 4.8,
-    "duree": 10,
-    "mensualite": 1260,
-    "cout_total": 151200
-  },
-  {
-    "id": 4,
+    "image":"cih.png",
     "provider": "CIH Bank",
     "montant": 60000,
     "taux": 3.9,
@@ -36,39 +31,15 @@
     "cout_total": 67680
   },
   {
-    "id": 5,
+    "id": 4,
+     "image":"Société_Générale_Maroc.png",
     "provider": "Société Générale Maroc",
     "montant": 90000,
     "taux": 5.1,
     "duree": 8,
     "mensualite": 1180,
     "cout_total": 113280
-  },
-  {
-    "id": 6,
-    "provider": "Crédit du Maroc",
-    "montant": 70000,
-    "taux": 4.3,
-    "duree": 6,
-    "mensualite": 1080,
-    "cout_total": 77760
-  },
-  {
-    "id": 7,
-    "provider": "Al Barid Bank",
-    "montant": 40000,
-    "taux": 3.5,
-    "duree": 4,
-    "mensualite": 890,
-    "cout_total": 42720
-  },
-  {
-    "id": 8,
-    "provider": "CFG Bank",
-    "montant": 150000,
-    "taux": 5.6,
-    "duree": 12,
-    "mensualite": 1450,
-    "cout_total": 208800
   }
+
+
 ]

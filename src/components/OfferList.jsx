@@ -4,7 +4,7 @@ import "../styles/card.css";
 export default function OfferList({ offers }) {
   return (
     <div className="carrt-list">
-      <h2>Available Credit Offers</h2>
+      <h2 className="title-list">Available Credit Offers</h2>
 
       <div className="cards-container">
         {offers.map((offer) => (

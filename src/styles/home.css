@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* HEADER */
+
 header {
     display: flex;
     align-items: center;
@@ -17,15 +17,15 @@ header {
     top: 0;
 }
 
-/* LOGO */
+
 header img {
     width: 90px;
     height: auto;
-    /* object-fit: cover; */
-    /* border-radius: 50%; */
+    object-fit: cover;
+  
 }
 
-/* TITLE */
+
 header h1 {
     font-size: 47px;
     color: #222;
@@ -42,12 +42,7 @@ header h4{
 }
 
 
-/* .list {
-    padding: 30px 40px;
-    background-color: aqua;
-} */
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
