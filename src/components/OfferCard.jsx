@@ -1,4 +1,5 @@
 import "../styles/card.css";
+import EvolutionCapital from "./EvolutionCapital.jsx";
 
 const toggleCrad = (offerId) => {
   const offerDetails = document.getElementById(String(offerId));
@@ -53,6 +54,7 @@ export default function OfferCard({ offer }) {
           <h5> {offer.duree}</h5>
         </div>
       </div>
+      <EvolutionCapital/>  
     </div>
   );
 }
