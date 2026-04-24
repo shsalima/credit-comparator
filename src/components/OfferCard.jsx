@@ -1,4 +1,3 @@
-import { CalculEvolution } from "../logique/CalculEvolution.js";
 import "../styles/card.css";
 import EvolutionCapital from "./EvolutionCapital.jsx";
 
@@ -14,11 +13,7 @@ const toggleCrad = (offerId) => {
 };
 
 export default function OfferCard({ offer }) {
-  const evolutionData = CalculEvolution(
-    offer.montant,
-    offer.taux,
-    offer.duree
-  )
+ 
   return (
     <div
       style={{ borderColor: offer.isRecommended && "green" }}
@@ -59,8 +54,8 @@ export default function OfferCard({ offer }) {
           <p>DUREE</p>
           <h5> {offer.duree}</h5>
         </div>
+      <EvolutionCapital offer={offer} /> 
       </div>
-      <EvolutionCapital data={evolutionData} /> 
      
     </div>
   );
